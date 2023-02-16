@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Star-match-game/static/css/main.63397e84.css",
+    "main.js": "/Star-match-game/static/js/main.d7eea071.js",
+    "index.html": "/Star-match-game/index.html",
+    "main.63397e84.css.map": "/Star-match-game/static/css/main.63397e84.css.map",
+    "main.d7eea071.js.map": "/Star-match-game/static/js/main.d7eea071.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63397e84.css",
+    "static/js/main.d7eea071.js"
+  ]
+}
