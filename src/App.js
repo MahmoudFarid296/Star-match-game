@@ -301,6 +301,7 @@ function RightPart(props) {
 function Button(props) {
   return (
     <button
+      className="numbers-buttons"
       style={props.color}
       disabled={props.disability}
       onClick={(e) => {

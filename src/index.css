@@ -10,11 +10,16 @@ img {
   font-size: 25px;
 }
 
-button {
+.numbers-buttons {
   border: thin solid #ddd;
   width: 45px;
   height: 45px;
   margin: 10px;
+  font-size: 25px;
+}
+button {
+  width: auto;
+  height: auto;
   font-size: 25px;
 }
 
