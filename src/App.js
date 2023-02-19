@@ -140,7 +140,7 @@ function Game() {
     };
     if (timer > 0 && endGame === false) {
       // at end of each render check if the timer is not = 0  and the flag of end game is still indicating that game is still runing deduct 1 from timer
-      // timerClock();
+      timerClock();
     } else {
       // else stop the timer ,disable all the buttons and set the end game flag to true.
       clearTimeout(timerClock);
