@@ -3,24 +3,28 @@ body {
 }
 
 img {
-  display: inline-block;
-  width: 45px;
-  height: 45px;
-  margin: 10px;
-  font-size: 25px;
+  text-align: center;
+  border: thin solid #ddd;
+  width: 20%;
+  height: 20%;
+  margin: 4%;
+  font-size: 100%;
+  padding: 0;
 }
 
 .numbers-buttons {
+  text-align: center;
   border: thin solid #ddd;
-  width: 45px;
-  height: 45px;
-  margin: 10px;
-  font-size: 25px;
+  width: 25%;
+  height: 25%;
+  margin: 2%;
+  font-size: 130%;
+  padding: 0;
 }
 button {
   width: auto;
   height: auto;
-  font-size: 25px;
+  font-size: auto;
 }
 
 .parent {
@@ -28,32 +32,37 @@ button {
   border-style: solid;
   border-width: 3px;
   text-align: center;
-  max-width: 500px;
   margin: 10px auto;
+  max-width: 700px;
 }
 
 .mainVessel {
   display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
 }
 
 .leftPart {
+  display: inline-block;
   text-align: center;
   border-style: solid;
   border-radius: 5px;
   border-width: 2px;
   width: 50%;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  padding: 20px;
+  height: 18em;
+  margin: 5%;
+  padding: 2%;
 }
 
 .rightPart {
+  display: inline-block;
   text-align: center;
   border-style: solid;
   border-radius: 5px;
   border-width: 2px;
   width: 50%;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  padding: 20px;
+  height: 18em;
+  margin: 5%;
+  padding: 3%;
 }
